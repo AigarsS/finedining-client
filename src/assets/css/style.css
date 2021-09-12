@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+.logo{
+    font-family: 'Alex Brush', cursive !important;
+    font-size: 30px !important;
+}
+
+.recipe-card{
+    width: 22rem;
+}
+
+.recipe-img {
+    width: 100%; /* You can set the dimensions to whatever you want */
+    height: 300px;
+    object-fit: cover;
+}
+
+.recipe-tumbnail{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.img-placeholder
+{
+    background-image: url('./img_placeholder.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    background-clip: content-box;
+}
+
+.btn-round {
+    border-radius: 25px;
+    vertical-align: middle;
+}
